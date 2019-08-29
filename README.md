@@ -42,3 +42,8 @@ Also, if you parse a .map there will be a list of models exported, it would be c
 mapEnts can be found after exporting from [c2m.](https://github.com/sheilan102/C2M)
 
 The only difference between [c2m's](https://github.com/sheilan102/C2M) json and DogSon’s json is the arrangement of rotations. DogSon exports as “xyz” while [c2m](https://github.com/sheilan102/C2M) exports as “yzx.”
+
+# For those who download the source code:
+You will need [colorama](https://pypi.org/project/colorama/) in order to run this script.
+
+**If you are downloading a [release](https://github.com/AgenteDog/DogSon-Parser/releases) you can ignore this**
