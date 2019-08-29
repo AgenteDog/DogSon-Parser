@@ -46,4 +46,4 @@ The only difference between [c2m's](https://github.com/sheilan102/C2M) json and 
 # For those who download the source code:
 You will need [colorama](https://pypi.org/project/colorama/) in order to run this script.
 
-**If you are downloading a [release](https://github.com/AgenteDog/DogSon-Parser/releases) you can ignore this**
+**If you are downloading a [release](https://github.com/AgenteDog/DogSon-Parser/releases) you can ignore this.**
