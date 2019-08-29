@@ -3,7 +3,7 @@ If you need help/assistance make sure to join this Discord server: https://disco
 
 
 
-HOW TO USE:
+# HOW TO USE:
 This tool is a very simple tool to use. 
 
 Before starting: Every time after you drag and drop something you will have to press enter.
@@ -17,7 +17,7 @@ If you type map:
 If you type vmf:
 	You will be asked to drag and drop the vmf file. Just drag and drop it and the parser will start parsing.
 
-WHAT WILL THE OUTPUT BE?
+# WHAT WILL THE OUTPUT BE?
 After parsing any file (does not matter if its a .vmf or a .map) the output will be a “.json” file which will always come with this structure:
 
 	[
@@ -38,7 +38,7 @@ This type of structure can also be found in [c2m's](https://github.com/sheilan10
 
 Also, if you parse a .map there will be a list of models exported, it would be called “filename_xmodelslist.txt”
 
-EXTRA INFO:
+# EXTRA INFO:
 mapEnts can be found after exporting from [c2m.](https://github.com/sheilan102/C2M)
 
 The only difference between [c2m's](https://github.com/sheilan102/C2M) json and DogSon’s json is the arrangement of rotations. DogSon exports as “xyz” while [c2m](https://github.com/sheilan102/C2M) exports as “yzx.”
