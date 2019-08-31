@@ -194,8 +194,9 @@ if missing_file == True:
     os.system("pause")
 elif missing_file == False and extention_choose == 'map':
     if mapents == True:
+        combined = values + values_mapents
         with open(output + '.json', 'w+') as file:
-            json.dump((values, values_mapents), file, indent=2)
+            json.dump((combined), file, indent=2)
     elif mapents == False:
         with open(output + '.json', 'w+') as file:
             json.dump((values), file, indent=2)
