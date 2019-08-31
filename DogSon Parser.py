@@ -15,11 +15,11 @@ missing_file = False
 mapents = None
 mapentsfile = None
 
-if extention_choose == 'map':
+if extention_choose.lower() == 'map':
     mapents = input('Do you want to also parse the mapents? (Yes/No): ')
-    if mapents == 'No':
+    if mapents.lower() == "no":
         mapents = False
-    elif mapents == 'Yes':
+    elif mapents.lower() == 'yes':
         mapents = True
         mapentsfile_select = input('Please drag and drop the mapents file. ')
         mapfile_subtract = mapentsfile_select[mapentsfile_select.rfind('\\') + 1:]
@@ -31,7 +31,7 @@ if extention_choose == 'map':
     mapfile =  input('Please drag an drop the map file. ')
     mapfile_subtract = mapfile[mapfile.rfind('\\') + 1:]
     mapfile = mapfile_subtract[:mapfile_subtract.rfind('.')] + '.map'
-elif extention_choose == 'vmf':
+elif extention_choose.lower() == 'vmf':
     mapfile = input('Please drag and drop the vmf file. ')
     mapfile_subtract = mapfile[mapfile.rfind('\\') + 1:]
     mapfile = mapfile_subtract[:mapfile_subtract.rfind('.')] + '.vmf'
