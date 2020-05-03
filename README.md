@@ -1,3 +1,7 @@
+This is all old and chunky code that I did when I was a beeginer. If you only need the functionality you can download in the releases tab since it does work.
+
+You are better off doing your own script if you want to look at the code LUL.
+
 # DogSon-Parser
 If you need help/assistance make sure to join this Discord server: https://discordapp.com/invite/wUqukba
 
